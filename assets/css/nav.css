@@ -1,0 +1,14 @@
+.left-side-nav li + li {
+    margin-top: 22px;
+  }
+  
+  .left-side-nav li a {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 0.875rem;
+  }
+  
+  .left-side-nav a.active span {
+    font-weight: 700;
+  }

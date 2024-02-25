@@ -1,0 +1,28 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
+    justify-content: center;
+    gap: 46px;
+    padding: 16px 0;
+  }
+  
+  .video-info {
+    display: grid;
+    grid-template-columns: 42px auto;
+    gap: 10px;
+    padding: 16px 0;
+  }
+  
+  .video-info h2 {
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+  
+  .video-views {
+    font-size: 0.75rem;
+    color: #515151;
+  }
+  .video-views span {
+    display: block;
+  }

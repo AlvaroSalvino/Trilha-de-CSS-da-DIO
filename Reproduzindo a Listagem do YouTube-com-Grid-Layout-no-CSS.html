@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube - CSS Grid</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="main-header-left-controls">
+        <a href="#" target="_self">
+          <img src="assets/images/menu.svg" alt="" />
+        </a>
+        <a href="#" target="_self">
+          <img
+            src="assets/images/youtube-logo.svg"
+            alt="Youtube Logo"
+            width="90"
+          />
+        </a>
+      </div>
+      <div class="main-header-search-controls">
+        <input type="search" name="search" value="" placeholder="Pesquisar" />
+        <button type="submit" id="search" title="Pesquisar">
+          <img src="assets/images/search.svg" alt="" />
+        </button>
+      </div>
+      <div class="main-header-right-controls">
+        <a href="#" title="Enviar">
+          <img src="assets/images/video.svg" alt="" />
+        </a>
+        <a href="#" title="Notificações">
+          <img src="assets/images/bell.svg" alt="" />
+        </a>
+        <a href="#" title="Perfil">
+          <img src="assets/images/dio-profile.png" alt="" width="34" />
+        </a>
+      </div>
+    </header>
+    <div class="grid-container">
+      <aside>
+        <nav class="left-side-nav">
+          <ul>
+            <li>
+              <a class="active" href="#" target="_self" title="Inicio">
+                <img src="assets/images/home.svg" alt="" />
+                <span>Inicio</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_self" title="Explorar">
+                <img src="assets/images/compass.svg" alt="" />
+                <span>Explorar</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_self" title="Inscrições">
+                <img src="assets/images/youtube.svg" alt="" />
+                <span>Inscrições</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_self" title="YouTube Music">
+                <img src="assets/images/disc.svg" alt="" />
+                <span>YouTube Music</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_self" title="Vídeos que gostei">
+                <img src="assets/images/thumbs-up.svg" alt="" />
+                <span>Vídeos que gostei</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_self" title="Assistir mais tarde">
+                <img src="assets/images/clock.svg" alt="" />
+                <span>Assistir mais tarde</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_self" title="Downloads">
+                <img src="assets/images/download.svg" alt="" />
+                <span>Downloads</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_self" title="Filmes">
+                <img src="assets/images/film.svg" alt="" /> <span>Filmes</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_self" title="Aprender">
+                <img src="assets/images/book.svg" alt="" />
+                <span>Aprender</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_self" title="Esportes">
+                <img src="assets/images/award.svg" alt="" />
+                <span>Esportes</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <main>
+        <article>
+          <div class="video-thumb">
+            <a href="#"><img src="assets/images/01.png" alt="" /> </a>
+          </div>
+          <header>
+            <div class="video-info">
+              <a href="#" title="Dio"
+                ><img src="assets/images/dio-profile.png" alt="DIO" />
+              </a>
+              <div>
+                <h2>
+                  <a
+                    href="#"
+                    title="Geração Tech Unimed - BH - Ciência de Dados"
+                    >Geração Tech Unimed - BH - Ciência de Dados</a
+                  >
+                </h2>
+                <div class="video-views">
+                  2,1 mil visualizações <span>Transmitido há 2 dias</span>
+                </div>
+              </div>
+            </div>
+          </header>
+        </article>
+        <article>
+          <div class="video-thumb">
+            <a href="#"><img src="assets/images/02.png" alt="" /> </a>
+          </div>
+          <header>
+            <div class="video-info">
+              <a href="#" title="Dio"
+                ><img src="assets/images/dio-profile.png" alt="DIO" />
+              </a>
+              <div>
+                <h2>
+                  <a
+                    href="#"
+                    title="Geração Tech Unimed - BH - Ciência de Dados"
+                    >Scrum Talks</a
+                  >
+                </h2>
+                <div class="video-views">
+                  1,6 mil visualizações <span>Transmitido há 3 dias</span>
+                </div>
+              </div>
+            </div>
+          </header>
+        </article>
+        <article>
+          <div class="video-thumb">
+            <a href="#"><img src="assets/images/03.png" alt="" /> </a>
+          </div>
+          <header>
+            <div class="video-info">
+              <a href="#" title="Dio"
+                ><img src="assets/images/dio-profile.png" alt="DIO" />
+              </a>
+              <div>
+                <h2>
+                  <a
+                    href="#"
+                    title="Geração Tech Unimed - BH - Ciência de Dados"
+                    >Machine Learning Avançado - Fast Track</a
+                  >
+                </h2>
+                <div class="video-views">
+                  1,7 mil visualizações <span>Transmitido há 4 dias</span>
+                </div>
+              </div>
+            </div>
+          </header>
+        </article>
+        <article>
+          <div class="video-thumb">
+            <a href="#"><img src="assets/images/04.png" alt="" /> </a>
+          </div>
+          <header>
+            <div class="video-info">
+              <a href="#" title="Dio"
+                ><img src="assets/images/dio-profile.png" alt="DIO" />
+              </a>
+              <div>
+                <h2>
+                  <a
+                    href="#"
+                    title="Geração Tech Unimed - BH - Ciência de Dados"
+                    >Global Skills #2 - Project Planning</a
+                  >
+                </h2>
+                <div class="video-views">
+                  2,1 mil visualizações <span>Transmitido há 2 dias</span>
+                </div>
+              </div>
+            </div>
+          </header>
+        </article>
+        <article>
+          <div class="video-thumb">
+            <a href="#"><img src="assets/images/05.png" alt="" /> </a>
+          </div>
+          <header>
+            <div class="video-info">
+              <a href="#" title="Dio"
+                ><img src="assets/images/dio-profile.png" alt="DIO" />
+              </a>
+              <div>
+                <h2>
+                  <a
+                    href="#"
+                    title="Geração Tech Unimed - BH - Ciência de Dados"
+                    >Como aprender a programar Python do ZERO</a
+                  >
+                </h2>
+                <div class="video-views">
+                  711 visualizações <span>Transmitido há 2 dias</span>
+                </div>
+              </div>
+            </div>
+          </header>
+        </article>
+        <article>
+          <div class="video-thumb">
+            <a href="#"><img src="assets/images/01.png" alt="" /> </a>
+          </div>
+          <header>
+            <div class="video-info">
+              <a href="#" title="Dio"
+                ><img src="assets/images/dio-profile.png" alt="DIO" />
+              </a>
+              <div>
+                <h2>
+                  <a
+                    href="#"
+                    title="Geração Tech Unimed - BH - Ciência de Dados"
+                    >Geração Tech Unimed - BH - Ciência de Dados</a
+                  >
+                </h2>
+                <div class="video-views">
+                  2,1 mil visualizações <span>Transmitido há 2 dias</span>
+                </div>
+              </div>
+            </div>
+          </header>
+        </article>
+        <article>
+          <div class="video-thumb">
+            <a href="#"><img src="assets/images/02.png" alt="" /> </a>
+          </div>
+          <header>
+            <div class="video-info">
+              <a href="#" title="Dio"
+                ><img src="assets/images/dio-profile.png" alt="DIO" />
+              </a>
+              <div>
+                <h2>
+                  <a
+                    href="#"
+                    title="Geração Tech Unimed - BH - Ciência de Dados"
+                    >Scrum Talks</a
+                  >
+                </h2>
+                <div class="video-views">
+                  1,6 mil visualizações <span>Transmitido há 3 dias</span>
+                </div>
+              </div>
+            </div>
+          </header>
+        </article>
+        <article>
+          <div class="video-thumb">
+            <a href="#"><img src="assets/images/03.png" alt="" /> </a>
+          </div>
+          <header>
+            <div class="video-info">
+              <a href="#" title="Dio"
+                ><img src="assets/images/dio-profile.png" alt="DIO" />
+              </a>
+              <div>
+                <h2>
+                  <a
+                    href="#"
+                    title="Geração Tech Unimed - BH - Ciência de Dados"
+                    >Machine Learning Avançado - Fast Track</a
+                  >
+                </h2>
+                <div class="video-views">
+                  1,7 mil visualizações <span>Transmitido há 4 dias</span>
+                </div>
+              </div>
+            </div>
+          </header>
+        </article>
+        <article>
+          <div class="video-thumb">
+            <a href="#"><img src="assets/images/04.png" alt="" /> </a>
+          </div>
+          <header>
+            <div class="video-info">
+              <a href="#" title="Dio"
+                ><img src="assets/images/dio-profile.png" alt="DIO" />
+              </a>
+              <div>
+                <h2>
+                  <a
+                    href="#"
+                    title="Geração Tech Unimed - BH - Ciência de Dados"
+                    >Global Skills #2 - Project Planning</a
+                  >
+                </h2>
+                <div class="video-views">
+                  2,1 mil visualizações <span>Transmitido há 2 dias</span>
+                </div>
+              </div>
+            </div>
+          </header>
+        </article>
+        <article>
+          <div class="video-thumb">
+            <a href="#"><img src="assets/images/05.png" alt="" /> </a>
+          </div>
+          <header>
+            <div class="video-info">
+              <a href="#" title="Dio"
+                ><img src="assets/images/dio-profile.png" alt="DIO" />
+              </a>
+              <div>
+                <h2>
+                  <a
+                    href="#"
+                    title="Geração Tech Unimed - BH - Ciência de Dados"
+                    >Como aprender a programar Python do ZERO</a
+                  >
+                </h2>
+                <div class="video-views">
+                  711 visualizações <span>Transmitido há 2 dias</span>
+                </div>
+              </div>
+            </div>
+          </header>
+        </article>
+        <article>
+          <div class="video-thumb">
+            <a href="#"><img src="assets/images/01.png" alt="" /> </a>
+          </div>
+          <header>
+            <div class="video-info">
+              <a href="#" title="Dio"
+                ><img src="assets/images/dio-profile.png" alt="DIO" />
+              </a>
+              <div>
+                <h2>
+                  <a
+                    href="#"
+                    title="Geração Tech Unimed - BH - Ciência de Dados"
+                    >Geração Tech Unimed - BH - Ciência de Dados</a
+                  >
+                </h2>
+                <div class="video-views">
+                  2,1 mil visualizações <span>Transmitido há 2 dias</span>
+                </div>
+              </div>
+            </div>
+          </header>
+        </article>
+        <article>
+          <div class="video-thumb">
+            <a href="#"><img src="assets/images/02.png" alt="" /> </a>
+          </div>
+          <header>
+            <div class="video-info">
+              <a href="#" title="Dio"
+                ><img src="assets/images/dio-profile.png" alt="DIO" />
+              </a>
+              <div>
+                <h2>
+                  <a
+                    href="#"
+                    title="Geração Tech Unimed - BH - Ciência de Dados"
+                    >Scrum Talks</a
+                  >
+                </h2>
+                <div class="video-views">
+                  1,6 mil visualizações <span>Transmitido há 3 dias</span>
+                </div>
+              </div>
+            </div>
+          </header>
+        </article>
+        <article>
+          <div class="video-thumb">
+            <a href="#"><img src="assets/images/03.png" alt="" /> </a>
+          </div>
+          <header>
+            <div class="video-info">
+              <a href="#" title="Dio"
+                ><img src="assets/images/dio-profile.png" alt="DIO" />
+              </a>
+              <div>
+                <h2>
+                  <a
+                    href="#"
+                    title="Geração Tech Unimed - BH - Ciência de Dados"
+                    >Machine Learning Avançado - Fast Track</a
+                  >
+                </h2>
+                <div class="video-views">
+                  1,7 mil visualizações <span>Transmitido há 4 dias</span>
+                </div>
+              </div>
+            </div>
+          </header>
+        </article>
+        <article>
+          <div class="video-thumb">
+            <a href="#"><img src="assets/images/04.png" alt="" /> </a>
+          </div>
+          <header>
+            <div class="video-info">
+              <a href="#" title="Dio"
+                ><img src="assets/images/dio-profile.png" alt="DIO" />
+              </a>
+              <div>
+                <h2>
+                  <a
+                    href="#"
+                    title="Geração Tech Unimed - BH - Ciência de Dados"
+                    >Global Skills #2 - Project Planning</a
+                  >
+                </h2>
+                <div class="video-views">
+                  2,1 mil visualizações <span>Transmitido há 2 dias</span>
+                </div>
+              </div>
+            </div>
+          </header>
+        </article>
+        <article>
+          <div class="video-thumb">
+            <a href="#"><img src="assets/images/05.png" alt="" /> </a>
+          </div>
+          <header>
+            <div class="video-info">
+              <a href="#" title="Dio"
+                ><img src="assets/images/dio-profile.png" alt="DIO" />
+              </a>
+              <div>
+                <h2>
+                  <a
+                    href="#"
+                    title="Geração Tech Unimed - BH - Ciência de Dados"
+                    >Como aprender a programar Python do ZERO</a
+                  >
+                </h2>
+                <div class="video-views">
+                  711 visualizações <span>Transmitido há 2 dias</span>
+                </div>
+              </div>
+            </div>
+          </header>
+        </article>
+        <article>
+          <div class="video-thumb">
+            <a href="#"><img src="assets/images/01.png" alt="" /> </a>
+          </div>
+          <header>
+            <div class="video-info">
+              <a href="#" title="Dio"
+                ><img src="assets/images/dio-profile.png" alt="DIO" />
+              </a>
+              <div>
+                <h2>
+                  <a
+                    href="#"
+                    title="Geração Tech Unimed - BH - Ciência de Dados"
+                    >Geração Tech Unimed - BH - Ciência de Dados</a
+                  >
+                </h2>
+                <div class="video-views">
+                  2,1 mil visualizações <span>Transmitido há 2 dias</span>
+                </div>
+              </div>
+            </div>
+          </header>
+        </article>
+        <article>
+          <div class="video-thumb">
+            <a href="#"><img src="assets/images/02.png" alt="" /> </a>
+          </div>
+          <header>
+            <div class="video-info">
+              <a href="#" title="Dio"
+                ><img src="assets/images/dio-profile.png" alt="DIO" />
+              </a>
+              <div>
+                <h2>
+                  <a
+                    href="#"
+                    title="Geração Tech Unimed - BH - Ciência de Dados"
+                    >Scrum Talks</a
+                  >
+                </h2>
+                <div class="video-views">
+                  1,6 mil visualizações <span>Transmitido há 3 dias</span>
+                </div>
+              </div>
+            </div>
+          </header>
+        </article>
+        <article>
+          <div class="video-thumb">
+            <a href="#"><img src="assets/images/03.png" alt="" /> </a>
+          </div>
+          <header>
+            <div class="video-info">
+              <a href="#" title="Dio"
+                ><img src="assets/images/dio-profile.png" alt="DIO" />
+              </a>
+              <div>
+                <h2>
+                  <a
+                    href="#"
+                    title="Geração Tech Unimed - BH - Ciência de Dados"
+                    >Machine Learning Avançado - Fast Track</a
+                  >
+                </h2>
+                <div class="video-views">
+                  1,7 mil visualizações <span>Transmitido há 4 dias</span>
+                </div>
+              </div>
+            </div>
+          </header>
+        </article>
+        <article>
+          <div class="video-thumb">
+            <a href="#"><img src="assets/images/04.png" alt="" /> </a>
+          </div>
+          <header>
+            <div class="video-info">
+              <a href="#" title="Dio"
+                ><img src="assets/images/dio-profile.png" alt="DIO" />
+              </a>
+              <div>
+                <h2>
+                  <a
+                    href="#"
+                    title="Geração Tech Unimed - BH - Ciência de Dados"
+                    >Global Skills #2 - Project Planning</a
+                  >
+                </h2>
+                <div class="video-views">
+                  2,1 mil visualizações <span>Transmitido há 2 dias</span>
+                </div>
+              </div>
+            </div>
+          </header>
+        </article>
+        <article>
+          <div class="video-thumb">
+            <a href="#"><img src="assets/images/05.png" alt="" /> </a>
+          </div>
+          <header>
+            <div class="video-info">
+              <a href="#" title="Dio"
+                ><img src="assets/images/dio-profile.png" alt="DIO" />
+              </a>
+              <div>
+                <h2>
+                  <a
+                    href="#"
+                    title="Geração Tech Unimed - BH - Ciência de Dados"
+                    >Como aprender a programar Python do ZERO</a
+                  >
+                </h2>
+                <div class="video-views">
+                  711 visualizações <span>Transmitido há 2 dias</span>
+                </div>
+              </div>
+            </div>
+          </header>
+        </article>
+      </main>
+    </div>
+  </body>
+</html>
