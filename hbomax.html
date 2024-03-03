@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="pt-br" id="index">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Projeto desenvolvido durante a trilha da CSS da DIO.">
+    <meta name="author" content="Fatima Ferreira">
+    <meta name="copyright" content="Todos os direitos livres">
+    <meta name="robots" content="index, follow">
+
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <script>document.documentElement.classList += "js "</script>
+    <title>HBO Max</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-logo">
+            <a href="index.html"><img src="assets/images/hbo-max-logo.svg" alt="HBO MAX Logo"></a>
+        </div>
+
+        <nav class="header-menu">
+            <a href="pages/acount.html" class="btn-default btn-header btn-white">Conta</a>
+            <a href="pages/signIn.html" class="btn-default btn-header btn-purple">Assista Agora</a>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="main-video">
+            <video src="assets/videos/bg-video.mp4" autoplay muted loop></video>
+        </div>
+        <div class="main-poster">
+            <span>Plano de</span>
+            <p><strong>3 meses</strong></p>
+            <p><span>só por </span> <strong> R$ 74.90</strong></p>
+            <div class="poster-button">
+                <a href="#plan" class="btn-default btn-main" id="btn-main-animated">Assine Agora</a>
+                <p class="txt-small">*Pagamento antecipado. O preço exibido é referente ao plano de três meses.</p>
+            </div>
+
+            <div class="main-cards">
+                <div class="main-card_item">
+                    <img src="assets/images/Item-01.avif" alt="Poster 01">
+                </div>
+                <div class="main-card_item">
+                    <img src="assets/images/Item-02.avif" alt="Poster 02">
+                </div>
+                <div class="main-card_item">
+                    <img src="assets/images/Item-03.avif" alt="Poster 03">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="section plan" id="plan">
+        <div class="section-header">
+            <h2 class="section-title">Escolha seu plano Multitelas</h2>
+            <p class="plan-subtitle">O que está incluso</p>
+        </div>
+        <div class="plan-list">
+            <ul>
+                <li>Aproveite em todos os seus dispositivos.</li>
+                <li>Tenha conteúdo em alta definição, com qualidade 4K.</li>
+            </ul>
+
+            <ul>
+                <li> Chromecast e Airplay disponíveis.</li>
+                <li>Baixe suas séries e filmes favoritos, assista onde e quando quiser.</li>
+            </ul>
+
+            <ul>
+                <li> Assista em até 3 telas ao mesmo tempo.</li>
+                <li>Crie até 5 perfis diferentes.</li>
+            </ul>
+        </div>
+
+        <div class="plan-cards">
+            <div class="plan-card_item">
+                <div class="plan-card_desc">
+                    <span>3 meses</span>
+                    <p class="plan-price">R$ 74,90</p>
+                    <p>Igual a R$ 24,97 por mês</p>
+                </div>
+                <a href="#" class="btn-default btn-main" id="trimestral">Escolha o plano trimestral</a>
+            </div>
+            <div class="plan-card_item anual-plan">
+                <div class="plan-card_desc">
+                    <span>12 meses</span>
+                    <p class="plan-price">R$ 239,90</p>
+                    <p>Igual a R$ 19,99 por mês</p>
+                </div>
+                <a href="#" class="btn-default btn-main">Escolha o plano anual</a>
+            </div>
+            <div class="plan-card_item">
+                <div class="plan-card_desc">
+                    <span>1 mês</span>
+                    <p class="plan-price">R$ 34,90</p>
+                </div>
+                <a href="#" class="btn-default btn-main">Escolha o plano mensal</a>
+            </div>
+        </div>
+
+        <p class="txt-small plan-paragraph">
+            *Necessário pagamento antecipado. Economia baseada no preço do plano multitelas anual comparado ao preço
+            do plano multitelas mensal durante 12 meses, excluindo impostos. Termos se aplicam.
+        </p>
+    </section>
+
+    <section id="premiere-desktop" class="section section-premiere">
+        <div class="section-header">
+            <h2 class="section-title">Estreias que vão transformar nos seus novos favoritos</h2>
+        </div>
+        <div class="container-slide">
+            <div class="container premiere-slide">
+                <div class="premiere-item">
+                    <h3>And Just Like That</h3>
+                    <span>Disponível agora</span>
+                    <img class="promo-img" src="assets/images/dcatc_pt.webp" alt="Do cinema para sua casa" width="524"
+                        height="60">
+                    <p>É hora de descobrir o que vem a seguir para Carrie, Miranda e Charlotte. Às vezes é preciso
+                        voltar às raízes: coquetéis, festas, moda e... muito sexo!</p>
+
+                    <ul class="movie-actor">
+                        <li>
+                            <div class="premiere-item_actor">
+                                <img src="assets/images/actor-4.avif" alt="Photo Actor" width="388" height="388">
+                            </div>
+                            <h4>Sarah Jessica Parker</h4>
+                            <p>É Carrie Bradshaw</p>
+                        </li>
+                        <li>
+                            <div class="premiere-item_actor">
+                                <img src="assets/images/actor-5.avif" alt="Photo Actor" width="388" height="388">
+                            </div>
+                            <h4>Kristin Davis</h4>
+                            <p>É Charlotte York</p>
+                        </li>
+                        <li>
+                            <div class="premiere-item_actor">
+                                <img src="assets/images/actor-6.avif" alt="Photo Actor" width="388" height="388">
+                            </div>
+                            <h4>Cynthia Nixon</h4>
+                            <p>É Miranda Hobbes</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="premiere-item">
+                    <img src="assets/images/poster-4.avif" alt="Movie Poster" width="1284" height="691">
+                </div>
+            </div>
+        </div>
+        <div class="premiere-slide_btn">
+            <div class="slide-btn">
+                <span class="currentSlide">1 </span>
+                <span class="dividerSlide"> / </span>
+                <span class="totalSlide">4</span>
+                <a href="#" class="btn-arrow" aria-label="Button for slide"><i
+                        class="fa-solid fa-chevron-right"></i></a>
+            </div>
+            <a href="#" rel="noopener noreferrer" class="btn-default btn-main btn-nowSign">assine agora</a>
+        </div>
+    </section>
+
+    <section id="premiere-mobile" class="section section-premiere">
+        <div class="section-header">
+            <h2 class="section-title">Estreias que vão transformar nos seus novos favoritos</h2>
+        </div>
+        <div class="container premiere-mob_container">
+            <div class="realese-title">Disponível agora</div>
+            <div class="realese-container"> </div>
+            <div class="realese-detail">
+                <h3>And Just Like That</h3>
+                <p>É hora de descobrir o que vem a seguir para Carrie, Miranda e Charlotte. Às vezes é preciso
+                    voltar às raízes: coquetéis, festas, moda e... muito sexo!</p>
+                <ul class="movie-actor">
+                    <li>
+                        <div class="premiere-item_actor">
+                            <img src="assets/images/actor-4.avif" alt="Photo Actor">
+                        </div>
+                        <h4>Sarah Jessica Parker</h4>
+                        <p>É Carrie Bradshaw</p>
+                    </li>
+                    <li>
+                        <div class="premiere-item_actor">
+                            <img src="assets/images/actor-5.avif" alt="Photo Actor">
+                        </div>
+                        <h4>Kristin Davis</h4>
+                        <p>É Charlotte York</p>
+                    </li>
+                    <li>
+                        <div class="premiere-item_actor">
+                            <img src="assets/images/actor-6.avif" alt="Photo Actor">
+                        </div>
+                        <h4>Cynthia Nixon</h4>
+                        <p>É Miranda Hobbes</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="realese-btn">
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-circle"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-circle"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-circle"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-circle"></i></a></li>
+            </ul>
+            <a href="#" rel="noopener noreferrer" class="btn-default btn-main btn-nowSign">assine agora</a>
+        </div>
+    </section>
+
+    <section class="section" id="free-episode_section">
+        <div class="section-header">
+            <h2 class="section-title">Episódios grátis da HBO Max, sem precisar de uma assinatura</h2>
+        </div>
+        <div class="free-episode">
+            <div class="container free-episode_content">
+                <div class="free-episode_slide">
+                    <div class="episode-card">
+                        <a href="#">
+                            <img src="assets/images/winning_time.avif" alt="winning poster" width="307" height="441">
+                        </a>
+                        <div class="episode-card_desc">
+                            <h2>Winning Time</h2>
+                            <span>Assistir grátis</span>
+                        </div>
+                    </div>
+                    <div class="episode-card">
+                        <a href="#">
+                            <img src="assets/images/justlikethat.avif" alt="Just Like That poster" width="307"
+                                height="441">
+                        </a>
+                        <div class="episode-card_desc">
+                            <h2>And Just Like That</h2>
+                            <span>Assistir grátis</span>
+                        </div>
+                    </div>
+                    <div class="episode-card">
+                        <a href="#">
+                            <img src="assets/images/alemdo.avif" alt="Alem do guarda-roupas poster" width="307"
+                                height="441">
+                        </a>
+                        <div class="episode-card_desc">
+                            <h2>Além do guarda-roupas</h2>
+                            <span>Assistir grátis</span>
+                        </div>
+                    </div>
+                    <div class="episode-card">
+                        <a href="#">
+                            <img src="assets/images/superman.avif" alt="superman poster" width="307" height="441">
+                        </a>
+                        <div class="episode-card_desc">
+                            <h2>My adventures with superman</h2>
+                            <span>Assistir grátis</span>
+                        </div>
+                    </div>
+                    <div class="episode-card">
+                        <a href="#">
+                            <img src="assets/images/gosip.avif" alt="Gosspi Girl poster" width="307" height="441">
+                        </a>
+                        <div class="episode-card_desc">
+                            <h2>Gosspi Girl</h2>
+                            <span>Assistir grátis</span>
+                        </div>
+                    </div>
+                    <div class="episode-card">
+                        <a href="#">
+                            <img src="assets/images/fullcircle.avif" alt="Full Circle poster" width="307" height="441">
+                        </a>
+                        <div class="episode-card_desc">
+                            <h2>Full Circle</h2>
+                            <span>Assistir grátis</span>
+                        </div>
+                    </div>
+                    <div class="episode-card">
+                        <a href="#">
+                            <img src="assets/images/theoc.avif" alt="The OC poster" width="307" height="441">
+                        </a>
+                        <div class="episode-card_desc">
+                            <h2>The OC</h2>
+                            <span>Assistir grátis</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrow-slide arrow-left">
+                    <a href="#" aria-label="Arrow left"><i class="fa-solid fa-chevron-left"></i></a>
+                </div>
+                <div class="arrow-slide arrow-right">
+                    <a href="#" aria-label="Arrow right"><i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="arrow-animated">
+            <span><i class="fa-solid fa-arrow-right-long"></i></span>
+        </div>
+        <div class="free-episode_btn">
+            <a href="#" class="btn-default btn-white-100">
+                Assistir episódios grátis
+            </a>
+        </div>
+    </section>
+
+    <section class="section experience">
+        <div class="section-header">
+            <h2 class="section-title">Uma experiência simples e completa</h2>
+            <p class="txt-small">A compatibilidade varia de acordo com o plano.</p>
+        </div>
+        <div class="experience-container">
+            <picture>
+                <source media="(max-width:576px)" srcset="assets/images/br_devices_mobile.avif">
+                <source media="(min-width:577px) and (max-width:1024px)"
+                    srcset="assets/images/br_devices_trophy-tablet.webp">
+                <img src="assets/images/br_devices_trophy-desktop.webp" alt="Devices Desktop Screen">
+            </picture>
+        </div>
+        <div class="container experience-detail">
+            <div class="experience-detail_item">
+                <hr class="line line-magenta">
+                <p>Crie até 5 perfis e receba recomendações personalizadas para cada um</p>
+            </div>
+            <div class="experience-detail_item">
+                <hr class="line line-magenta">
+                <p>Baixe qualquer conteúdo disponível para assistir offline</p>
+            </div>
+            <div class="experience-detail_item">
+                <hr class="line line-magenta">
+                <p>Defina o conteúdo que as crianças podem assistir de acordo com cada faixa etária</p>
+            </div>
+            <div class="experience-detail_item">
+                <hr class="line line-magenta">
+                <p>Adicione seus títulos favoritos para assistir quando quiser </p>
+            </div>
+        </div>
+    </section>
+
+    <article class="kid">
+        <div class="container kid-container">
+            <div class="kid-item">
+                <img src="assets/images/bg-kid-01.png" alt="Cartoon">
+            </div>
+            <div class="kid-item">
+                <h2>A HBO Max traz diversão para a família toda</h2>
+            </div>
+            <div class="kid-item">
+                <img src="assets/images/bg-kid-02.png" alt="Cartoon">
+            </div>
+        </div>
+    </article>
+
+    <section class="section">
+        <div class="section-header">
+            <h2 class="section-title">Descubra novos universos</h2>
+        </div>
+        <div class="container universe">
+            <div class="universe-card">
+                <div class="universe-card_img">
+                    <img src="assets/images/hbo-default_0.webp" alt="HBO Poster">
+                    <img src="assets/images/hbo-hover_0.webp" alt="HBO Poster" class="poster-hover">
+                </div>
+            </div>
+            <div class="universe-card">
+                <div class="universe-card_img">
+                    <img src="assets/images/MAX-Default.webp" alt="MAX Original">
+                    <img src="assets/images/MAX-Hover.webp" alt="HBO Poster" class="poster-hover">
+                </div>
+            </div>
+            <div class="universe-card">
+                <div class="universe-card_img">
+                    <img src="assets/images/DC_Default.webp" alt="DC Poster">
+                    <img src="assets/images/DC-Hover.webp" alt="HBO Poster" class="poster-hover">
+                </div>
+            </div>
+            <div class="universe-card">
+                <div class="universe-card_img">
+                    <img src="assets/images/WB-Default.webp" alt="WB Poster">
+                    <img src="assets/images/WB-Hover.webp" alt="HBO Poster" class="poster-hover">
+                </div>
+            </div>
+            <div class="universe-card">
+                <div class="universe-card_img">
+                    <img src="assets/images/CN-Default.avif" alt="CN Poster">
+                    <img src="assets/images/CN-Hover.png" alt="HBO Poster" class="poster-hover">
+                </div>
+            </div>
+            <div class="universe-card">
+                <div class="universe-card_img">
+                    <img src="assets/images/UCL-Default.avif" alt="UCL Poster">
+                    <img src="assets/images/UCL-Hover.avif" alt="HBO Poster" class="poster-hover">
+                </div>
+            </div>
+        </div>
+
+        <div class="universe-btn">
+            <a href="#" class="btn-default btn-main">Assine Agora</a>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-header">
+            <h2 class="section-title">Alguma pergunta? A gente tem a resposta.</h2>
+            <div class="container faq-container">
+                <ul class="faq-list js-accordion">
+                    <li>
+                        <button class="accordion-btn">
+                            O que é HBO Max?
+                        </button>
+                        <div class="accordion-panel">
+                            <p>HBO Max é a nova plataforma de streaming que reúne todo o conteúdo da HBO, além de filmes
+                                campeões em bilheteria, séries incríveis para maratonar e Max Originals exclusivos. </p>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="accordion-btn">
+                            O HBO Max tem teste grátis?
+                        </button>
+                        <div class="accordion-panel">
+                            <p>A HBO Max, juntamente com a maioria dos provedores da HBO Max, não oferecem mais um teste
+                                gratuito para novos assinantes. Se uma assinatura ou oferta promocional incluir uma
+                                avaliação gratuita, você verá uma menção à avaliação gratuita ao se inscrever.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="accordion-btn">
+                            Onde posso assistir HBO Max no Brasil?
+                        </button>
+                        <div class="accordion-panel">
+                            <p>No canto superior direito desta página, selecione ENTRAR. Selecione "Entrar com um
+                                provedor". Selecione "Ver todos os provedores". Aqui, você pode encontrar uma lista de
+                                todos os provedores que oferecem HBO Max na sua região. Você também pode ir para a
+                                página <a href="#">Escolha seu provedor</a> e procurá-lo.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="accordion-btn">
+                            Quanto custa o serviço HBO Max?
+                        </button>
+                        <div class="accordion-panel">
+                            <p>A HBO Max está disponível em <a href="#">vários provedores</a> e os preços variam de
+                                acordo com o país e com o plano escolhido. Para obter informações sobre preços,
+                                visite HBOMax.com.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="accordion-btn">
+                            O que há de novo com HBO Max?
+                        </button>
+                        <div class="accordion-panel">
+                            <p>Todos os meses temos estreias de filmes e séries. Você pode encontrá-los em nossa página
+                                de <a href="#">Próximos lançamentos</a>.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="accordion-btn">
+                            Quais séries e filmes posso assistir na HBO Max Brasil?
+                        </button>
+                        <div class="accordion-panel">
+                            <p>Nosso streaming possui histórias para todos os públicos. A HBO Max inclui:</p>
+                            <ul>
+                                <li>- Todos os seus favoritos da HBO.</li>
+                                <li> - Nova programação exclusiva (Max Originals).</li>
+                                <li> - A melhor seleção de marcas e catálogos da WarnerMedia.</li>
+                                <li> - Uma grande seleção de séries e filmes adquiridos.</li>
+                            </ul>
+                            <p>
+                                Tem mais de 10.000 horas de entretenimento supreendente. Você sempre encontrará algo
+                                para todos os públicos, desde famílias com crianças pequenas até adultos de todas as
+                                idades.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="accordion-btn">
+                            Em quais dispositivos posso assistir a filmes e séries do HBO Max?
+                        </button>
+                        <div class="accordion-panel">
+                            <div class="device-container">
+                                <div class="device-card">
+                                    <img src="assets/images/fwk-device-bw-tv.png" alt="Smart TV">
+                                    <h2>Smart TV</h2>
+                                    <p>Samsung</p>
+                                    <p>LG</p>
+                                    <p>Roku</p>
+                                    <p>Android TV</p>
+                                    <p>Apple TV</p>
+                                    <p>Chromecast</p>
+                                </div>
+                                <div class="device-card">
+                                    <img src="assets/images/fwk-device-bw-computer.png" alt="Computer">
+                                    <h2>Computadores</h2>
+                                    <p>Chrome OS</p>
+                                    <p>Mac OS</p>
+                                    <p>Windows PC</p>
+                                </div>
+                                <div class="device-card">
+                                    <img src="assets/images/fwk-device-bw-game-console.webp" alt="Game Console">
+                                    <h2>Video-games</h2>
+                                    <p>PS5</p>
+                                    <p>PS4</p>
+                                    <p>Xbox One</p>
+                                    <p>Xbox Serie XIS</p>
+                                </div>
+                                <div class="device-card">
+                                    <img src="assets/images/fwk-device-bw-tablet.png" alt="Tablet">
+                                    <h2>Smartphones e Tablets</h2>
+                                    <p>Android Phone & Tablet</p>
+                                    <p>iPhone & iPad</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="accordion-btn">
+                            Tem algum custo extra para assistir HBO Max do meu celular ou tablet?
+                        </button>
+                        <div class="accordion-panel">
+                            <p>Com o plano multitelas, você pode aproveitar todo o catálogo em todas as suas telas,
+                                incluindo smartphone e tablet. </p>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="accordion-btn">
+                            A HBO Max tem controle para menores?
+                        </button>
+                        <div class="accordion-panel">
+                            <p>Sim, você pode criar um perfil infantil para cada um de seus filhos, acionando a opção
+                                "Controles dos pais", que limita o conteúdo que pode ser visualizado. </p>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="accordion-btn">
+                            Onde ver a casa do dragão no Brasil?
+                        </button>
+                        <div class="accordion-panel">
+                            <p>Novos episódios de House of the Dragon, a tão esperada história pregressa de Game of
+                                Thrones, estão disponíveis todas as semanas, com o final da temporada em 23 de outubro
+                                de 2022. A Casa do Dragão está disponível em 4K Ultra HD, HDR 10, Dolby Vision e Dolby
+                                Atmos (em dispositivos selecionados com o plano padrão/standard). </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-index">
+                <div class="footer-links">
+                    <a href="#" class="btn-footer">Agora na HBO MAX</a>
+                    <a href="#" class="btn-footer">Em breve</a>
+                    <a href="#" class="btn-footer">Filme em destaque</a>
+                    <a href="#" class="btn-footer">Séries</a>
+                    <a href="#" class="btn-footer">ajuda</a>
+                </div>
+                <div class="footer-links">
+                    <a href="#" class="txt-small btn-footer_small">Privacidade</a>
+                    <a href="#" class="txt-small btn-footer_small">Termos de uso</a>
+                    <a href="#" class="txt-small btn-footer_small">Comunicados de imprensa</a>
+                    <a href="#" class="txt-small btn-footer_small">Contatos de imprensa</a>
+                    <a href="#" class="txt-small btn-footer_small">Gerencias preferências</a>
+                </div>
+                <div class="footer-legend">
+                    <p class="txt-small">© 2023 WarnerMedia Direct Latin America, LLC. Todos os direitos reservados. HBO
+                        Max é usado sob
+                        licença.</p>
+                </div>
+            </div>
+            <div class="footer-social">
+                <ul>
+                    <li>
+                        <a href="#" aria-label="Facebook">
+                            <img src="assets/images/facebook.png" alt="Facebook Logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Twitter">
+                            <img src="assets/images/twitter_0.png" alt="Twitter Logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Instagram">
+                            <img src="assets/images/instagram_0.png" alt="Instagram Logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Youtube">
+                            <img src="assets/images/youtube_0.png" alt="Youtube Logo">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/09fa9cee0a.js" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
