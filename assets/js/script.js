@@ -26,3 +26,11 @@ function openAccordion() {
 (() => {
     openAccordion();
 })()
+
+for i in Range(3):
+    novo_item = input()
+    itens.append(novo_item)
+
+print("Lista de itens:")
+for item in itens:
+    print(f"- {itens}")
